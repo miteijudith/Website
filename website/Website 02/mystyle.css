@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background: url(p5.jpg);
+   background-size: cover;
+   background-position: center;
+
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    height: 70px;
+    float: left;
+}
+.menu{
+    width: 400px;
+    height: 70px;
+    float: left;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+ul li{
+    list-style: none;
+    margin-left: 36px;
+    margin-top: 27px;
+    font-size: 14px;
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(252, 251, 251);
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    border: 1px solid transparent;
+    padding: 29px 13px;
+}
+ul li a:hover{
+    color: white;
+    background-color: rgb(235, 4, 4) ;
+}
+ul li a.active{
+    color: white;
+    background-color: rgb(235,4,4) ;
+}
+.container{
+    opacity: 0.1;
+    background-color: rgb(5, 5, 5) ;
+    margin-left: 203px;
+    margin-right: 203px;
+    border-style: solid;
+    border-color: #0c0c0c;
+    border-width: 3px;
+}
+
+.content{
+    color: rgb(252, 251, 251);
+    float: inherit;
+    width: 600px;
+    height: 600px;  
+    padding-left: 20px;
+    text-align: center;
+    text-decoration:aliceblue;
+    
+}
+
+.content .par{
+    
+    padding-left: 20px;
+    font-family: 'Trebuchet MS';
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.content h1{
+    font-family: 'Trebuchet MS';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+    padding-top: 30px;
+}
+.content h2{
+    font-family: serif;
+    font-style: italic;
+    font-size: 25px;
+    padding-left: 20px;
+    letter-spacing: 2px;
+}
+.content button{
+    background-color: rgb(204, 2, 2); /* Set button background color */
+  color: #ffffff; /* Set button text color */
+  padding: 10px 20px; /* Add padding to the button */
+  border: none; /* Remove button border */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  transition: background-color 0.3s, color 0.3s; /* Add a smooth transition effect */
+  font-family: 'Trebuchet MS';
+  font-weight: bold;
+}
+.content button:hover{
+    background-color: bisque;
+    color: rgb(87, 1, 1);
+}
